@@ -1,8 +1,9 @@
 SELECT 
-    o.order_id AS indentifikator_objednavky,
-    customer_name AS meno_zakaznika,
+    orders.order_id AS indentifikator_objednavky,
+    customers.customer_name AS meno_zakaznika,
     sales AS hodnota_predaja
-FROM orders o
-JOIN customers c ON o.customer_id = c.customer_id
+FROM orders 
+JOIN customers  
+    ON orders.customer_id = customers.customer_id
 WHERE sales > 500
 ORDER BY sales DESC;
