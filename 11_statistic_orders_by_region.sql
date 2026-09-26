@@ -6,4 +6,4 @@ SELECT
 FROM orders
 JOIN customers
     ON orders.customer_id = customers.customer_id
-GROUP BY customer.region;
+GROUP BY customers.region;
