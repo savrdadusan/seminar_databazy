@@ -34,4 +34,4 @@ CREATE TABLE orders (
     CONSTRAINT fk_orders_product
         FOREIGN KEY (product_id)
         REFERENCES products(product_id)
-)
+);
