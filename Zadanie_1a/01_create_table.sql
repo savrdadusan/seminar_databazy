@@ -1,5 +1,5 @@
 /* Vytvorenie databázy superstore*/
-/* CREATE DATABASE superstore; */
+CREATE DATABASE superstore;
 /* Vytvorenie tabuľky customers */
 CREATE TABLE customers (
     customer_id VARCHAR(20) PRIMARY KEY,
