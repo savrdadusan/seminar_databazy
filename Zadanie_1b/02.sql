@@ -1,5 +1,5 @@
 SELECT
-    product_name AS nazov_produktu
+    product_name AS nazov_produktu,
     total_amount AS hodnota_transakcie
 
 FROM flourmills_sales
