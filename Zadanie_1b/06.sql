@@ -7,4 +7,4 @@ FROM (
 ) AS monthly_sales
 
 
-ORDER BY monthly_sales DESC
+ORDER BY monthly_sales DESC;
